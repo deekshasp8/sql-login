@@ -1,0 +1,108 @@
+/* Main container styling */
+.container {
+    width: 600px;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  /* Header styling */
+  .header .text {
+    font-size: 28px;
+    font-weight: bold;
+    color:#4c00b4 ;
+    text-align: center;
+  }
+  
+  .header .underline {
+    width: 60px;
+    height: 4px;
+    background-color: #007bff;
+    margin: 10px auto;
+    border-radius: 2px;
+  }
+  
+  /* Input container styling */
+  .inputs {
+    margin-top: 20px;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: border-color 0.3s;
+  }
+  
+  .input:hover {
+    border-color: #007bff;
+  }
+  
+  /* Icon styling */
+  .input img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  /* Input field styling */
+  .input input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+    padding: 5px;
+    color: #333;
+  }
+  
+  /* Placeholder styling */
+  .input input::placeholder {
+    color: #aaa;
+  }
+  
+  /* forgot password */
+  .forgot-password{
+    padding-left:62px ;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+    
+
+  }
+
+  .forgot-password span{
+    color: #4c00b4;
+    cursor: pointer;
+  }
+
+  .submit-container{
+    display: flex;
+    gap: 80px;
+    margin: 50px auto;
+  }
+
+  .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 54px;
+    color: #fff;
+    background:#4c00b4;
+    border-radius: 40px;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .gray{
+    background:#EAEAEA;
+    color: #676767;
+  }
